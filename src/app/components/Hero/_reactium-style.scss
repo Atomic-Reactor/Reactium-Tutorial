@@ -2,12 +2,13 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url('/assets/images/reactium-og.jpg') no-repeat center center fixed; 
+    // bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+    background: #fff url('/assets/images/reactium-background.jpeg') center/cover no-repeat center center fixed;
 
     &-figure {
         position: relative;
-        width: 41.6vh; // 600px;
-        height: 100vh; // 1440px;
+        width: 40.6vh; // 600px;
+        height: 99vh; // 1440px;
         margin: 0 auto;
 
         img {

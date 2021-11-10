@@ -179,6 +179,24 @@ export default {
     ],
     leftArm: [
         {
+            img: '/assets/images/hero/left-arm-blue-yellow3.svg',
+            style: {
+                top: '35%',
+                right: '67%',
+                height: '19%',
+                zIndex: armsIndex,
+            },
+        },
+        {
+            img: '/assets/images/hero/left-arm-blue3.svg',
+            style: {
+                top: '35%',
+                right: '67%',
+                height: '19%',
+                zIndex: armsIndex,
+            },
+        },
+        {
             img: '/assets/images/hero/left-arm-white-black3.svg',
             style: {
                 top: '35%',
@@ -216,24 +234,6 @@ export default {
         },
         {
             img: '/assets/images/hero/left-arm-grey-spikey3.svg',
-            style: {
-                top: '35%',
-                right: '67%',
-                height: '19%',
-                zIndex: armsIndex,
-            },
-        },
-        {
-            img: '/assets/images/hero/left-arm-blue3.svg',
-            style: {
-                top: '35%',
-                right: '67%',
-                height: '19%',
-                zIndex: armsIndex,
-            },
-        },
-        {
-            img: '/assets/images/hero/left-arm-blue-yellow3.svg',
             style: {
                 top: '35%',
                 right: '67%',
@@ -370,6 +370,33 @@ export default {
     ],
     rightArm: [
         {
+            img: '/assets/images/hero/right-arm-blue-yellow3.svg',
+            style: {
+                top: '33%',
+                right: '9%',
+                height: '21%',
+                zIndex: armsIndex,
+            },
+        },
+        {
+            img: '/assets/images/hero/right-arm-blue.svg',
+            style: {
+                top: '17%',
+                right: '-28%',
+                height: '27%',
+                zIndex: armsIndex,
+            },
+        },
+        {
+            img: '/assets/images/hero/right-arm-blue3.svg',
+            style: {
+                top: '33%',
+                right: '9%',
+                height: '21%',
+                zIndex: armsIndex,
+            },
+        },
+        {
             img: '/assets/images/hero/right-arm-shield.svg',
             style: {
                 top: '33%',
@@ -407,24 +434,6 @@ export default {
         },
         {
             img: '/assets/images/hero/right-arm-grey-spikey3.svg',
-            style: {
-                top: '33%',
-                right: '9%',
-                height: '21%',
-                zIndex: armsIndex,
-            },
-        },
-        {
-            img: '/assets/images/hero/right-arm-blue3.svg',
-            style: {
-                top: '33%',
-                right: '9%',
-                height: '21%',
-                zIndex: armsIndex,
-            },
-        },
-        {
-            img: '/assets/images/hero/right-arm-blue-yellow3.svg',
             style: {
                 top: '33%',
                 right: '9%',
@@ -549,15 +558,6 @@ export default {
                 zIndex: armsIndex,
             },
         },
-        {
-            img: '/assets/images/hero/right-arm-blue.svg',
-            style: {
-                top: '17%',
-                right: '-28%',
-                height: '27%',
-                zIndex: armsIndex,
-            },
-        },
     ],
     logo: [
         {
@@ -644,15 +644,6 @@ export default {
             },
         },
         {
-            img: '/assets/images/hero/body-red.svg',
-            style: {
-                top: '31%',
-                right: '33%',
-                height: '21%',
-                zIndex: bodyIndex,
-            },
-        },
-        {
             img: '/assets/images/hero/body-grey.svg',
             style: {
                 top: '31%',
@@ -663,6 +654,15 @@ export default {
         },
         {
             img: '/assets/images/hero/body-blue.svg',
+            style: {
+                top: '31%',
+                right: '33%',
+                height: '21%',
+                zIndex: bodyIndex,
+            },
+        },
+        {
+            img: '/assets/images/hero/body-red.svg',
             style: {
                 top: '31%',
                 right: '33%',
@@ -691,6 +691,15 @@ export default {
     ],
     legs: [
         {
+            img: '/assets/images/hero/legs-blue.svg',
+            style: {
+                top: '51%',
+                right: '26%',
+                height: '26%',
+                zIndex: legsIndex,
+            },
+        },
+        {
             img: '/assets/images/hero/legs-red.svg',
             style: {
                 top: '51%',
@@ -710,15 +719,6 @@ export default {
         },
         {
             img: '/assets/images/hero/legs-grey.svg',
-            style: {
-                top: '51%',
-                right: '26%',
-                height: '26%',
-                zIndex: legsIndex,
-            },
-        },
-        {
-            img: '/assets/images/hero/legs-blue.svg',
             style: {
                 top: '51%',
                 right: '26%',
