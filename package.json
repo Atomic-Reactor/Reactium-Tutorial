@@ -1,7 +1,7 @@
 {
-  "name": "reactium",
-  "version": "4.1.6",
-  "description": "A framework for creating React + Redux apps using the domain driven design (DDD) paradigm.",
+  "name": "Reactium-Tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial code example for using Reactium framework.",
   "main": "index.js",
   "scripts": {
     "start": "node build/.core/index.js",
@@ -36,20 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Atomic-Reactor/Reactium.git"
+    "url": "https://github.com/Atomic-Reactor/Reactium-Tutorial.git"
   },
   "browser": {
     "parse/node": false
   },
   "dependencies": {
-    "@atomic-reactor/reactium-api": "file:reactium_modules/@atomic-reactor/reactium-api/_npm",
-    "@atomic-reactor/reactium-capability": "file:reactium_modules/@atomic-reactor/reactium-capability/_npm",
-    "@atomic-reactor/reactium-demo": "file:reactium_modules/@atomic-reactor/reactium-demo/_npm",
-    "@atomic-reactor/reactium-role": "file:reactium_modules/@atomic-reactor/reactium-role/_npm",
     "@atomic-reactor/reactium-sdk-core": "^1.2.7",
-    "@atomic-reactor/reactium-service-worker": "file:reactium_modules/@atomic-reactor/reactium-service-worker/_npm",
-    "@atomic-reactor/reactium-setting": "file:reactium_modules/@atomic-reactor/reactium-setting/_npm",
-    "@atomic-reactor/reactium-user": "file:reactium_modules/@atomic-reactor/reactium-user/_npm",
     "@babel/cli": "^7.13.14",
     "@babel/node": "^7.13.13",
     "@loadable/component": "^5.14.1",
