@@ -1,0 +1,19 @@
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('/assets/images/reactium-og.jpg') no-repeat center center fixed; 
+
+    &-figure {
+        position: relative;
+        width: 41.6vh; // 600px;
+        height: 100vh; // 1440px;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            position: absolute;
+            max-height: 100%;
+        }
+    }
+}
