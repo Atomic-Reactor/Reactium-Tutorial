@@ -2,8 +2,15 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    // bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
-    background: #fff url('/assets/images/reactium-background.jpeg') center/cover no-repeat center center fixed;
+
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.5) 35%,
+            rgba(255, 255, 255, 0) 40%
+        ),
+        #fff url('/assets/images/reactium-background.jpeg') no-repeat scroll 50%
+            100%;
 
     &-figure {
         position: relative;
